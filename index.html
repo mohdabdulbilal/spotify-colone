@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify colone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="main bg-black">
+        <div class="left ">
+            <img class="cross" src="./resoures/icons/cross.svg" alt="">
+            <div class="home p-1 m-1 bg-grey">
+                <div class="logo "><img src="./resoures/icons/logo.svg" alt=""></div>
+                <ul>
+                    <li><img src="./resoures/icons/home.svg" alt="home">Home</li>
+                    <li><img src="./resoures/icons/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey p-1 m-1">
+                <div class="heading">
+                    <img src="./resoures/icons/library.svg" alt="library">
+                    <h1>Library</h1>
+                </div>
+                <div class="left-songlist">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer ">
+
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/">
+                            <span>Legal</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                            <span> Privacy Center</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                            <span>Privacy Policy</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                            <span>Cookies</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                            <span>Abou Ads</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/">
+                            <span>Accessibility</span>
+                        </a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="right ">
+            <div class="header">
+                <div class="nav">
+                    <img class="burger" src="./resoures/icons/burger.svg" alt="">
+                    <img class="left-d" src="./resoures/icons/left.svg" alt="left">
+                    <img class="right-d" src="./resoures/icons/right.svg" alt="right">
+                </div>
+                <div class="button">
+                    <button class="Signup">SignUp</button>
+                    <button class="login">Login</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylist">
+                <h1>Spotify Playlist</h1>
+                <div class="cardContainer ">
+
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="song-detail"></div>
+                    <div class="songbutton">
+                        <img id="previous" src="./resoures/icons/previous.svg" alt="">
+                        <img id="play-bar" src="./resoures/icons/play-bar.svg" alt="">
+                        <img id="next" src="./resoures/icons/next.svg" alt="">
+                    </div>
+                    <div class="s-v">
+                        <div class="song-time"></div>
+                        <div class="volume">
+                            <img class="vol-img" src="./resoures/icons/volume.svg" alt="">
+                            <div class="vol-range">
+                                <input type="range" name="volume" id="volume-range">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- <script src="s.js"></script> -->
+</body>
+
+</html>

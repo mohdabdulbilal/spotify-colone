@@ -1,0 +1,36 @@
+.border{
+    border: 2px solid red;
+    margin: 2px;
+}
+.flex{
+    display: flex;
+}
+.align-items{
+    align-items: center;
+}
+.justify-content{
+    justify-content: center;
+}
+.p-1{
+    padding: 20px;
+}
+.m-1{
+    margin: 2px;
+}
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #2e2e2e; /* Color of the track (scrollbar background) */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Roundness of the scrollbar thumb */
+    border: 2px solid #2e2e2e; /* Adds space around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888; /* Color of the scrollbar thumb when hovered */
+}
